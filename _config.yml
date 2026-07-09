@@ -52,6 +52,7 @@ sass:
   style: :compressed
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-soopr-seo-tag
