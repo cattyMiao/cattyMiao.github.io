@@ -52,11 +52,12 @@ sass:
   style: :compressed
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-soopr-seo-tag
-  - jekyll-markdown-output
-  - jekyll-llms-output
+  # - jekyll-soopr-seo-tag
+  # - jekyll-markdown-output
+  # - jekyll-llms-output
 
 # Emit a clean .md sibling for each post (e.g. /foo -> /foo.md) so AI agents
 # can fetch source Markdown instead of parsing HTML. Set enabled: false to disable.
