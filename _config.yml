@@ -72,3 +72,10 @@ llms_output:
   full:
     collections: [posts]
     respect_markdown_output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      toc: true
