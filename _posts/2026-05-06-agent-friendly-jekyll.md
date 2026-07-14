@@ -3,6 +3,7 @@ layout: post
 title: "Making your Jekyll site agent-friendly"
 date: 2026-05-06 00:30:00 +0530
 author: Abhinav Saxena
+category: Jekyll
 tags:
   - Jekyll
   - AI
