@@ -53,21 +53,7 @@ old_project_entries:
     url: https://www.humangous.co
     desc: The better people know you, the better they collaborate
 
-footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
-
-  - title: twitter
-    url: https://twitter.com/abhinav
-
-  - title: github
-    url: https://github.com/abhinavs
-
-  - title: feed
-    url: feed.xml
-
-  - title: llms.txt
-    url: llms.txt
+footer_entries: []
 
 misc_entries:
   - title: this is an example vertical list
