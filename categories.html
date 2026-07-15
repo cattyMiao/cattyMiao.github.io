@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 分类
+title: Categories
 permalink: /categories
 ---
 
@@ -10,7 +10,7 @@ permalink: /categories
   </svg>
 </a>
 
-<h1>分类</h1>
+<h1>Categories</h1>
 
 {% assign categories = site.posts | map: "category" | uniq | sort %}
 
@@ -28,7 +28,7 @@ permalink: /categories
   <section class="tag-section">
     <h2 id="{{ category | slugify }}" class="tag-section-title">
       {{ category }}
-      <span class="tag-section-count">{{ posts.size }} 篇</span>
+      <span class="tag-section-count">{{ posts.size }} {% if posts.size == 1 %}post{% else %}posts{% endif %}</span>
     </h2>
     <ul>
       {% for post in posts %}
